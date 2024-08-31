@@ -1,7 +1,7 @@
 function element(tag, className, id, text) {
   const tags = document.createElement(tag);
   tags.classList = className;
-  tags.id = id; // Make sure id is set correctly
+  tags.id = id;
   tags.innerHTML = text;
   return tags;
 }
